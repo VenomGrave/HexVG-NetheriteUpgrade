@@ -1,1 +1,1 @@
-# HexVG-NetheriteUpgrade
+Prosty i szybki sposób na ulepszanie diamentowych przedmiotów do netherite przez własne GUI po kliknięciu w Smithing Table. Plugin pobiera opłatę z ekonomii (Vault), kopiuje nazwę, lore, enchanty, atrybuty i może ukrywać enchanty na gotowym przedmiocie.
