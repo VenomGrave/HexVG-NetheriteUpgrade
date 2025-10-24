@@ -1,0 +1,46 @@
+gui:
+  title: "&8Ulepszanie do Netherite"
+  rows: 3
+  upgrade_slot: 13
+  close_slot: 26
+  filler_material: "GRAY_STAINED_GLASS_PANE"
+  show_fillers: true
+
+economy:
+  enabled: true
+  # Domyślny koszt (gdy brak wpisu w 'costs')
+  default_cost: 10000.0
+  # Koszty per-typ diamentowego itemu (opcjonalnie)
+  costs:
+    DIAMOND_SWORD: 15000.0
+    DIAMOND_PICKAXE: 18000.0
+    DIAMOND_AXE: 16000.0
+    DIAMOND_SHOVEL: 8000.0
+    DIAMOND_HOE: 8000.0
+    DIAMOND_HELMET: 14000.0
+    DIAMOND_CHESTPLATE: 22000.0
+    DIAMOND_LEGGINGS: 20000.0
+    DIAMOND_BOOTS: 12000.0
+
+messages:
+  actionbar_not_diamond: "&cNie można ulepszyć tego przedmiotu. Trzymaj diamentowy przedmiot w ręce!"
+  not_enough_money: "&cNie masz wystarczająco pieniędzy. Koszt: &e%cost%"
+  upgraded: "&aUlepszono do Netherite! &7(-%cost%)"
+  clicked_close: "&7Zamknięto menu."
+  no_economy: "&cBrak ekonomii (Vault). Skontaktuj się z administracją."
+  upgrade_button: "&aUlepsz do &8Netherite"
+  upgrade_lore:
+    - "&7Ulepsza trzymany diamentowy przedmiot"
+    - "&7Kopiując nazwę, lore i enchanty"
+    - "&7Koszt: &e%cost%"
+  close_button: "&cZamknij"
+
+settings:
+  # Ukryj enchanty na przedmiocie po ulepszeniu
+  hide_enchants: true
+  # Zachowaj poziom zużycia (damage) jeśli możliwe
+  keep_damage: true
+  # Pozwól kopiować ponadlimitowe poziomy enchantów (np. Sharpness 10)
+  allow_unsafe_enchants: false
+  # Biała lista flag do kopiowania (gdy pusta — kopiuj wszystkie z oryginału)
+  copy_item_flags_whitelist: []

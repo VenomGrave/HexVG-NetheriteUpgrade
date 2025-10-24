@@ -1,0 +1,14 @@
+name: HexVG-NetheriteUpgrade
+main: com.venom.hexplugin.hexupgrade.HexVGNetheriteUpgrade
+version: 1.0
+api-version: '1.16'
+authors: [VenomGrave]
+description: Ulepszanie diamentowych przedmiotów do Netherite przez GUI z kosztami Vault.
+softdepend:
+  - Vault
+  - Essentials
+
+permissions:
+  hexvg.netheriteupgrade.use:
+    description: Pozwala otworzyć GUI i ulepszać przedmioty.
+    default: true
